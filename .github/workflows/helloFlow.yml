@@ -1,9 +1,10 @@
 name: Hello Flow
 on: workflow_dispatch
-
 jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Diga Ola Mundo
+      - name: Diga oi
         run: echo "Hello World!"
+      - name: Diga Valeu
+        run: echo "Valeu -Bye!"
